@@ -43,7 +43,8 @@
   --bs-light: #f8f9fa;
   --bs-dark: #212529;
   --bs-primary-rgb: 53, 105, 92;
-  --bs-secondary-rgb: 236, 184, 7;
+  /* --bs-secondary-rgb: 236, 184, 7; */
+  --bs-secondary-rgb: 0, 0, 0;
   --bs-success-rgb: 25, 135, 84;
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 236, 184, 7;
@@ -10882,8 +10883,8 @@ html {
   height: 100%;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
-  border-left: 1px solid rgba(255, 255, 255, 0.1);
+  background: rgb(53, 105, 92);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
 }
 
 .sidebar-nav {
@@ -10916,7 +10917,7 @@ html {
 .sidebar-nav > .sidebar-brand {
   font-size: 1.2rem;
   background: rgba(52, 58, 64, 0.1);
-  height: 80px;
+  height: 100px;
   line-height: 50px;
   padding-top: 15px;
   padding-bottom: 15px;
@@ -11018,8 +11019,8 @@ footer.footer .social-link:hover {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   /*background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%); */
   background-position: center center;
   background-repeat: no-repeat;
@@ -11032,7 +11033,9 @@ footer.footer .social-link:hover {
 }
 @media (min-width: 992px) {
   .masthead {
-    height: 100vh;
+    height: 60vh;
+    padding-top: 2rem;
+    padding-bottom: 8rem;
   }
   .masthead h1, .masthead .h1 {
     font-size: 5.5rem;
