@@ -10830,6 +10830,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+
 body,
 html {
   width: 100%;
@@ -11223,14 +11224,19 @@ a > .service-icon:hover {
 
 
 .fa-instagram {
-    padding-left: 0.1rem;
+  padding-left: 0.1rem;
 }
 
 @media (max-width: 767px) {
   #follow-btn {
     margin-right: 0rem !important;
     padding: 1.25rem 1.55rem;
+    margin-bottom: 1.0rem;
   } 
+  .content-section {
+    padding-top: 5.5rem;
+    padding-bottom: 5.5rem;
+  }
     
 }
 
