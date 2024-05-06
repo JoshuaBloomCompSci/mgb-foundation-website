@@ -11071,6 +11071,11 @@ footer.footer .social-link:hover {
   bottom: 0;
   z-index: 1;
 }
+
+.portfolio-item .caption:active {
+  background-color: rgba(33, 37, 41, 0.2);
+}
+
 .portfolio-item .caption .caption-content {
   color: #fff;
   margin: auto 2rem 2rem;
@@ -11234,8 +11239,8 @@ a > .service-icon:hover {
     margin-bottom: 1.0rem;
   } 
   .content-section {
-    padding-top: 4.0rem;
-    padding-bottom: 4.0rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4.5rem;
   }
     
 }
